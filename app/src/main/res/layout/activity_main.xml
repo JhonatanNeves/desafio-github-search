@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.MainActivity"
+    android:background="@color/beige_light">
 
     <TextView
         android:id="@+id/tv_titulo"
         style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="@color/green_darker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -16,24 +18,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
     <EditText
         android:id="@+id/et_nome_usuario"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/Theme.GitHubSearch.FormEditText"
         android:layout_margin="16dp"
-        android:ems="10"
+        android:autofillHints=""
+        android:ems="39"
+        android:textColor="@color/blue_darker"
         android:hint="@string/nome_usuario"
-        android:inputType="numberDecimal"
-        android:maxLength="10"
+        android:inputType="text"
+        android:maxLength="39"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_titulo" />
 
     <Button
         android:id="@+id/btn_confirmar"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        style="@style/Theme.GitHubSearch.Button"
+        android:layout_margin="16dp"
         android:text="@string/confirmar"
         app:layout_constraintEnd_toEndOf="@id/et_nome_usuario"
         app:layout_constraintStart_toStartOf="@id/et_nome_usuario"
