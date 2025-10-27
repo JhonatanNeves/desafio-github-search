@@ -28,6 +28,7 @@
         android:ems="39"
         android:textColor="@color/blue_darker"
         android:hint="@string/nome_usuario"
+        android:textColorHint="@color/blue_darker"
         android:inputType="text"
         android:maxLength="39"
         app:layout_constraintEnd_toEndOf="parent"
