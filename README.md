@@ -16,9 +16,9 @@ O aplicativo possui uma interface limpa e funcionalidades pensadas para uma óti
   - Abrir no Navegador: Clique em qualquer item da lista para abrir a página oficial daquele repositório no seu navegador padrão.  
   - Compartilhar: Cada item possui uma opção para compartilhar o link do repositório com outros aplicativos (WhatsApp, E-mail, etc.).  
 
-  #### •Persistência de Dados:  
+  #### • Persistência de Dados:  
   - O aplicativo salva automaticamente o último nome de usuário pesquisado. Ao abrir o app novamente, o campo de busca já vem preenchido, facilitando novas buscas.  
-  #### Design e Usabilidade:  
+  #### • Design e Usabilidade:  
   - UI Customizada: O aplicativo conta com um tema personalizado, incluindo fontes e cores customizadas para uma identidade visual única.
   - Tratamento de Feedback: O usuário é informado com mensagens (Toast) em casos de usuário não encontrado ou falhas de conexão com a internet.
   - Esconder Teclado Automático: Ao confirmar uma busca, o teclado virtual se esconde automaticamente para não obstruir a visualização dos resultados.
@@ -33,8 +33,10 @@ O aplicativo possui uma interface limpa e funcionalidades pensadas para uma óti
     #### •Persistência de Dados Simples: SharedPreferences para armazenar o último usuário pesquisado.
     #### •Componentes de UI: Material Components for Android para um design moderno e consistente.
     # 🚀 Como Executar o Projeto
-    - 1.Clone este repositório:Kotlin  
-      ``` git clone https://github.com/JhonatanNeves/desafio-github-search.git ```  
+    - 1.Clone este repositório: Kotlin
+      
+      ``` git clone https://github.com/JhonatanNeves/desafio-github-search.git ```
+      
     - 2.Abra o projeto no Android Studio.
     - 3.Aguarde o Gradle sincronizar todas as dependências.
     - 4.Execute o aplicativo em um emulador ou dispositivo físico.
